@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +12,33 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  display: block;
+  border: #fff 1em solid;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 1rem;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 1rem;
+  margin: 0px auto;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: flex;
+  padding: 1rem;
+  margin: 0px auto;
 }
